@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: skyblue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading{
+  font-family: 'Otomanopee One', sans-serif;
+  color: blueviolet;
+  text-align: center;
+  background-color:lightgoldenrodyellow;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 20px
+}
+
+ul{
+  list-style: none;
+  font-family: 'Otomanopee One', sans-serif;
+  margin-top: 20px;
+}
